@@ -1,0 +1,152 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: URL("https://images.pexels.com/photos/15104328/pexels-photo-15104328/free-photo-of-comida-alimento-refeicao-legumes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: repeat;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.menu a {
+  margin: 0 10px;
+  font-size: 2.5vw;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu a:hover {
+    color: #0F0;
+}
+
+.colorSection {
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aboutSection {
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aboutSubSection{  
+  opacity: 1;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aboutSubSection p {
+  font-size: 2vw;
+}
+
+.benefitsSection {
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.beneficioDiv {
+  margin-bottom: 1vh;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.beneficioDiv p {
+  margin: 0;
+}
+
+.beneficioDiv img {
+  width: 10vw;
+  height: 10vw;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.beneficioText{
+  display: flex;
+  flex-direction: column;}
+
+.beneficioP{
+  font-weight: 500;
+  font-size: 3vw;
+}
+
+.enderecoBene{
+  font-size: 2vw;
+}
+
+.saldoTitleSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.saldoTitleSection img{
+  width: 10vw;
+  margin-right: 10%;
+  margin-top: 2.5vh;
+}
+
+.cidadeSelectP {
+  font-size: 3.5vw;
+  font-weight: 500;
+  margin-right: auto;
+}
+
+.cidadeSelectSelect {
+  width: 30vw;
+  height: 4vh;
+  font-size: 2vh;
+}
+
+.cidadeSelectSelect option{
+  font-size: 2vh;
+}
+
+.cidadeSelect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlePDV {
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.subtitlePDV{
+  margin-left: 1vw;
+  font-size: 2.5vw;
+}
+
+.titleP {
+  margin-top: 3vh;
+  font-size: 2.5vw;
+}
+
+.subtitleP {
+  font-size: 2vw;
+}
+
+.balanceP {
+  font-size: 2vw;
+  margin-left: 50vw;
+}
